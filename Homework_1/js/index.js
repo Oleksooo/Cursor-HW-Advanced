@@ -22,9 +22,9 @@ function getRandom(min, max) {
 }
 const discount = getRandom(0, 50)
 
-const randomDiscount = (totalCost - discount).toFixed(2)
+const randomDiscount = (totalCost - discount).toFixed(2);
 
-const profit = (totalCost / 2) - discount
+const profit = ((totalCost / 2) - discount).toFixed(2);
 
 
 document.writeln(`Bounty:  ${Bounty} <br>`)
