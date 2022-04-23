@@ -15,11 +15,9 @@ for(total = 0; n <= m; ++n){
     if(skipPairNumbers && n % 2 == 0 ){
         continue
     } else{
-        total += n
+        total = total + n
     }
 }
 
-document.writeln(`Число N: ${n} <br>`)
-document.writeln(`Число M: ${m} <br>`)
 document.writeln(`Пропускати парні числа? -${skipPairNumbers} <br>`)
 document.writeln(`Результат: ${total}`)
